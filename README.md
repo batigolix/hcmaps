@@ -1,2 +1,3 @@
 # hcmaps
-# hcmaps
+
+Highcharts maps demo
