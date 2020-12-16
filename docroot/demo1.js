@@ -41,13 +41,6 @@ Highcharts.mapChart('container', {
         }
     },
 
-    colorAxis: {
-        min: null,
-        min: 0,
-        minColor: '#E6E7E8',
-        maxColor: '#005645'
-    },
-
     legend: {
         title: {
             text: 'Aantal opgestelde windmolens',
@@ -69,6 +62,10 @@ Highcharts.mapChart('container', {
     },
 
     colorAxis: {
+        min: null,
+        min: 0,
+        minColor: '#E6E7E8',
+        maxColor: '#005645',
         dataClasses: [{
             to: 25
         }, {
